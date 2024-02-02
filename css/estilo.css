@@ -10,6 +10,11 @@ header img{
 
 /*Conteudo principal*/
 
+#section-banners img {
+    height: 500px;
+    }
+    
+
 #section-vendidos{
     text-align: center;
 }
@@ -22,15 +27,18 @@ header img{
     height: 300px;
     border-radius: 10px;
 }
-#section-vendidos.card{
+#section-vendidos .card{
     margin: 5px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
 
-/*banner*/
-#section-banners img{
-    height: 500px;
+#section-vendidos .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+
+
 }
 
 
@@ -52,6 +60,12 @@ footer p{
     bottom: 5px;
     right: 50px;
 }
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    }
+    
 
 /* página de login  */
 #section-login{

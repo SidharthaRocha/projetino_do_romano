@@ -12,3 +12,6 @@ function cadastro() {
     window.location.href = "index.html";
         }
           
+     
+      
+        
